@@ -1,0 +1,637 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prime Tech System - Soluções em Tecnologia</title>
+    <meta name="description" content="Prime Tech System - Soluções tecnológicas inteligentes em TI, BI, Segurança e Transformação Digital no Norte do Brasil.">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- AOS - Animate on Scroll -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg fixed-top navbar-custom" id="mainNav">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#home">
+                <i class="bi bi-cpu-fill text-primary me-2"></i>
+                <span class="brand-text">PRIME TECH</span>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-lg-center">
+                    <li class="nav-item"><a class="nav-link" href="#home">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#valores">Valores</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                    <li class="nav-item ms-lg-3 mt-2 mt-lg-0">
+                        <a class="btn btn-primary btn-whatsapp-nav" href="https://wa.me/5591988899669" target="_blank">
+                            <i class="bi bi-whatsapp"></i> Fale Conosco
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header id="home" class="hero-section">
+        <div class="hero-overlay"></div>
+        <div class="container position-relative">
+            <div class="row align-items-center min-vh-100">
+                <div class="col-lg-7" data-aos="fade-right">
+                    <span class="badge bg-primary-soft text-primary mb-3 px-3 py-2">
+                        <i class="bi bi-stars me-1"></i> Tecnologia que transforma negócios
+                    </span>
+                    <h1 class="display-3 fw-bold text-white mb-4">
+                        Soluções <span class="text-gradient">inteligentes</span> em tecnologia para o seu negócio
+                    </h1>
+                    <p class="lead text-white-75 mb-4">
+                        Entregamos eficiência, segurança e tomada de decisão com inovação,
+                        qualidade e alto nível técnico para sua empresa crescer.
+                    </p>
+                    <div class="d-flex flex-wrap gap-3">
+                        <a href="#servicos" class="btn btn-primary btn-lg px-4">
+                            <i class="bi bi-rocket-takeoff me-2"></i>Nossos Serviços
+                        </a>
+                        <a href="https://wa.me/5591988899669" target="_blank" class="btn btn-outline-light btn-lg px-4">
+                            <i class="bi bi-whatsapp me-2"></i>Solicitar Orçamento
+                        </a>
+                    </div>
+                    <div class="row mt-5 stats-row">
+                        <div class="col-4">
+                            <h3 class="text-white fw-bold mb-0">+100</h3>
+                            <small class="text-white-75">Projetos entregues</small>
+                        </div>
+                        <div class="col-4">
+                            <h3 class="text-white fw-bold mb-0">24/7</h3>
+                            <small class="text-white-75">Suporte técnico</small>
+                        </div>
+                        <div class="col-4">
+                            <h3 class="text-white fw-bold mb-0">100%</h3>
+                            <small class="text-white-75">Comprometimento</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-5 d-none d-lg-block" data-aos="fade-left">
+                    <div class="hero-image-wrapper">
+                        <div class="floating-card card-1">
+                            <i class="bi bi-shield-check text-primary"></i>
+                            <div>
+                                <h6 class="mb-0">Segurança</h6>
+                                <small>Dados protegidos</small>
+                            </div>
+                        </div>
+                        <div class="floating-card card-2">
+                            <i class="bi bi-graph-up-arrow text-success"></i>
+                            <div>
+                                <h6 class="mb-0">+85%</h6>
+                                <small>Eficiência</small>
+                            </div>
+                        </div>
+                        <div class="floating-card card-3">
+                            <i class="bi bi-cloud-check text-info"></i>
+                            <div>
+                                <h6 class="mb-0">Cloud Ready</h6>
+                                <small>Infraestrutura</small>
+                            </div>
+                        </div>
+                        <div class="hero-circle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-shape">
+            <svg viewBox="0 0 1440 100" preserveAspectRatio="none">
+                <path fill="#ffffff" d="M0,50 C480,120 960,0 1440,50 L1440,100 L0,100 Z"></path>
+            </svg>
+        </div>
+    </header>
+
+    <!-- Sobre Section -->
+    <section id="sobre" class="py-5 section-padding">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0" data-aos="fade-right">
+                    <div class="about-image-wrapper">
+                        <div class="about-bg-shape"></div>
+                        <img src="https://images.unsplash.com/photo-1521737711867-e3b97375f902?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+                             alt="Equipe Prime Tech" class="img-fluid rounded-4 shadow-lg about-img">
+                        <div class="experience-badge">
+                            <h2 class="mb-0 fw-bold">+10</h2>
+                            <small>Anos de experiência</small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6" data-aos="fade-left">
+                    <span class="section-tag">SOBRE NÓS</span>
+                    <h2 class="section-title">Conheça a <span class="text-primary">Prime Tech System</span></h2>
+                    <p class="text-muted lead">
+                        Somos uma empresa especializada em soluções tecnológicas inteligentes
+                        e integradas, com sede em Belém - PA.
+                    </p>
+                    <p class="text-muted">
+                        A Prime Tech System Serviço de Informática LTDA atua entregando soluções
+                        que aumentam a eficiência, segurança e tomada de decisão dos nossos clientes,
+                        por meio de inovação, qualidade e alto nível técnico.
+                    </p>
+
+                    <div class="row mt-4">
+                        <div class="col-md-6 mb-3">
+                            <div class="mission-card">
+                                <i class="bi bi-bullseye text-primary"></i>
+                                <h5>Missão</h5>
+                                <p class="small text-muted mb-0">
+                                    Entregar soluções tecnológicas inteligentes que aumentem a
+                                    eficiência e segurança dos clientes.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-md-6 mb-3">
+                            <div class="mission-card">
+                                <i class="bi bi-eye-fill text-primary"></i>
+                                <h5>Visão</h5>
+                                <p class="small text-muted mb-0">
+                                    Ser referência no Norte do Brasil em tecnologia confiável,
+                                    inovadora e estratégica.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="#contato" class="btn btn-primary mt-3">
+                        Saiba mais <i class="bi bi-arrow-right ms-2"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Serviços Section -->
+    <section id="servicos" class="py-5 section-padding bg-light-custom">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="section-tag">O QUE FAZEMOS</span>
+                <h2 class="section-title">Nossos <span class="text-primary">Serviços</span></h2>
+                <p class="text-muted col-lg-7 mx-auto">
+                    Oferecemos soluções completas em tecnologia da informação
+                    para impulsionar o crescimento do seu negócio.
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-pc-display"></i>
+                        </div>
+                        <h4>Infraestrutura de TI</h4>
+                        <p class="text-muted">
+                            Estruturação completa de redes, servidores e equipamentos
+                            para garantir performance e confiabilidade.
+                        </p>
+                        <a href="#contato" class="service-link">
+                            Saiba mais <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-bar-chart-line-fill"></i>
+                        </div>
+                        <h4>Business Intelligence</h4>
+                        <p class="text-muted">
+                            Transforme dados em decisões estratégicas com dashboards
+                            inteligentes e análises avançadas.
+                        </p>
+                        <a href="#contato" class="service-link">
+                            Saiba mais <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-shield-lock-fill"></i>
+                        </div>
+                        <h4>Segurança da Informação</h4>
+                        <p class="text-muted">
+                            Proteção de dados, firewall, backup e políticas de segurança
+                            para manter sua empresa segura.
+                        </p>
+                        <a href="#contato" class="service-link">
+                            Saiba mais <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="100">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-arrow-repeat"></i>
+                        </div>
+                        <h4>Transformação Digital</h4>
+                        <p class="text-muted">
+                            Modernização de processos com automação, integração
+                            e digitalização de operações.
+                        </p>
+                        <a href="#contato" class="service-link">
+                            Saiba mais <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-cloud-arrow-up-fill"></i>
+                        </div>
+                        <h4>Soluções em Nuvem</h4>
+                        <p class="text-muted">
+                            Migração e gerenciamento de ambientes cloud com
+                            escalabilidade e alta disponibilidade.
+                        </p>
+                        <a href="#contato" class="service-link">
+                            Saiba mais <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="300">
+                    <div class="service-card">
+                        <div class="service-icon">
+                            <i class="bi bi-headset"></i>
+                        </div>
+                        <h4>Suporte Técnico</h4>
+                        <p class="text-muted">
+                            Atendimento especializado e ágil para resolver demandas
+                            técnicas com qualidade e eficiência.
+                        </p>
+                        <a href="#contato" class="service-link">
+                            Saiba mais <i class="bi bi-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Valores Section -->
+    <section id="valores" class="py-5 section-padding">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="section-tag">PRINCÍPIOS</span>
+                <h2 class="section-title">Nossos <span class="text-primary">Valores</span></h2>
+                <p class="text-muted col-lg-7 mx-auto">
+                    Os valores que guiam todas as nossas ações e relacionamentos.
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="value-card">
+                        <div class="value-icon-wrapper">
+                            <i class="bi bi-check-circle-fill"></i>
+                        </div>
+                        <h5>Comprometimento com resultados</h5>
+                        <p class="text-muted small mb-0">
+                            Entregamos o que prometemos, com responsabilidade e foco no cliente.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="150">
+                    <div class="value-card">
+                        <div class="value-icon-wrapper">
+                            <i class="bi bi-lightbulb-fill"></i>
+                        </div>
+                        <h5>Inovação contínua</h5>
+                        <p class="text-muted small mb-0">
+                            Buscamos constantemente novas tecnologias e soluções.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="value-card">
+                        <div class="value-icon-wrapper">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                        </div>
+                        <h5>Ética e transparência</h5>
+                        <p class="text-muted small mb-0">
+                            Atuamos com integridade em todas as relações.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="250">
+                    <div class="value-card">
+                        <div class="value-icon-wrapper">
+                            <i class="bi bi-award-fill"></i>
+                        </div>
+                        <h5>Excelência técnica</h5>
+                        <p class="text-muted small mb-0">
+                            Alto padrão de qualidade em cada projeto executado.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="value-card">
+                        <div class="value-icon-wrapper">
+                            <i class="bi bi-people-fill"></i>
+                        </div>
+                        <h5>Parceria com o cliente</h5>
+                        <p class="text-muted small mb-0">
+                            Crescemos junto com nossos clientes, entendendo suas dores e objetivos.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-4" data-aos="zoom-in" data-aos-delay="350">
+                    <div class="value-card">
+                        <div class="value-icon-wrapper">
+                            <i class="bi bi-lightning-charge-fill"></i>
+                        </div>
+                        <h5>Agilidade e eficiência</h5>
+                        <p class="text-muted small mb-0">
+                            Respostas rápidas com soluções inteligentes.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section py-5">
+        <div class="container">
+            <div class="row align-items-center" data-aos="fade-up">
+                <div class="col-lg-8 mb-3 mb-lg-0">
+                    <h2 class="text-white fw-bold mb-2">Pronto para transformar seu negócio?</h2>
+                    <p class="text-white-75 mb-0 lead">
+                        Fale com nossos especialistas e descubra como podemos ajudar sua empresa.
+                    </p>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <a href="https://wa.me/5591988899669" target="_blank" class="btn btn-light btn-lg px-4">
+                        <i class="bi bi-whatsapp me-2"></i>Falar no WhatsApp
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contato Section -->
+    <section id="contato" class="py-5 section-padding bg-light-custom">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="fade-up">
+                <span class="section-tag">CONTATO</span>
+                <h2 class="section-title">Entre em <span class="text-primary">Contato</span></h2>
+                <p class="text-muted col-lg-7 mx-auto">
+                    Estamos prontos para atender você. Envie sua mensagem
+                    ou utilize um dos nossos canais.
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-lg-5" data-aos="fade-right">
+                    <div class="contact-info-card h-100">
+                        <h4 class="mb-4">Informações de Contato</h4>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="bi bi-geo-alt-fill"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-1">Endereço</h6>
+                                <p class="text-muted mb-0 small">
+                                    Av. Comandante Brás de Aguiar, 580<br>
+                                    SL 1407, Quadra Braz Corporate<br>
+                                    Nazaré - Belém/PA - CEP: 66035-405
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="bi bi-whatsapp"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-1">WhatsApp</h6>
+                                <a href="https://wa.me/5591988899669" target="_blank" class="text-muted text-decoration-none">
+                                    (91) 98889-9669
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="bi bi-telephone-fill"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-1">Telefone</h6>
+                                <a href="tel:+559182474959" class="text-muted text-decoration-none">
+                                    (91) 8247-4959
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="bi bi-envelope-fill"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-1">E-mail</h6>
+                                <a href="mailto:brunocontente@gmail.com" class="text-muted text-decoration-none">
+                                    brunocontente@gmail.com
+                                </a>
+                            </div>
+                        </div>
+
+                        <div class="contact-item border-0">
+                            <div class="contact-icon">
+                                <i class="bi bi-building"></i>
+                            </div>
+                            <div>
+                                <h6 class="mb-1">CNPJ</h6>
+                                <p class="text-muted mb-0 small">30.831.582/0001-19</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-7" data-aos="fade-left">
+                    <div class="contact-form-card">
+                        <h4 class="mb-4">Envie sua mensagem</h4>
+                        <form id="contactForm">
+                            <div class="row g-3">
+                                <div class="col-md-6">
+                                    <label class="form-label">Nome completo *</label>
+                                    <input type="text" class="form-control form-control-lg" id="nome" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">E-mail *</label>
+                                    <input type="email" class="form-control form-control-lg" id="email" required>
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Telefone</label>
+                                    <input type="tel" class="form-control form-control-lg" id="telefone">
+                                </div>
+                                <div class="col-md-6">
+                                    <label class="form-label">Assunto *</label>
+                                    <select class="form-select form-select-lg" id="assunto" required>
+                                        <option value="">Selecione...</option>
+                                        <option>Infraestrutura de TI</option>
+                                        <option>Business Intelligence</option>
+                                        <option>Segurança da Informação</option>
+                                        <option>Transformação Digital</option>
+                                        <option>Soluções em Nuvem</option>
+                                        <option>Suporte Técnico</option>
+                                        <option>Outro</option>
+                                    </select>
+                                </div>
+                                <div class="col-12">
+                                    <label class="form-label">Mensagem *</label>
+                                    <textarea class="form-control" id="mensagem" rows="5" required></textarea>
+                                </div>
+                                <div class="col-12">
+                                    <button type="submit" class="btn btn-primary btn-lg w-100">
+                                        <i class="bi bi-send-fill me-2"></i>Enviar Mensagem
+                                    </button>
+                                </div>
+                            </div>
+                            <div id="formStatus" class="mt-3"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row g-4">
+                <div class="col-lg-4">
+                    <h5 class="text-white mb-3">
+                        <i class="bi bi-cpu-fill text-primary me-2"></i>PRIME TECH SYSTEM
+                    </h5>
+                    <p class="text-white-50">
+                        Soluções tecnológicas inteligentes que aumentam a eficiência,
+                        segurança e tomada de decisão dos nossos clientes.
+                    </p>
+                    <div class="social-links">
+                        <a href="https://wa.me/5591988899669" target="_blank" aria-label="WhatsApp">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                        <a href="mailto:brunocontente@gmail.com" aria-label="E-mail">
+                            <i class="bi bi-envelope-fill"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-lg-2">
+                    <h6 class="text-white mb-3">Navegação</h6>
+                    <ul class="footer-links">
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#valores">Valores</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-md-6 col-lg-3">
+                    <h6 class="text-white mb-3">Serviços</h6>
+                    <ul class="footer-links">
+                        <li><a href="#servicos">Infraestrutura de TI</a></li>
+                        <li><a href="#servicos">Business Intelligence</a></li>
+                        <li><a href="#servicos">Segurança da Informação</a></li>
+                        <li><a href="#servicos">Transformação Digital</a></li>
+                        <li><a href="#servicos">Suporte Técnico</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3">
+                    <h6 class="text-white mb-3">Contato</h6>
+                    <ul class="footer-contact">
+                        <li>
+                            <i class="bi bi-geo-alt-fill"></i>
+                            Av. Comandante Brás de Aguiar, 580 - Nazaré, Belém/PA
+                        </li>
+                        <li>
+                            <i class="bi bi-whatsapp"></i>
+                            (91) 98889-9669
+                        </li>
+                        <li>
+                            <i class="bi bi-envelope-fill"></i>
+                            brunocontente@gmail.com
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <hr class="footer-divider">
+
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <p class="text-white-50 small mb-0">
+                        &copy; <span id="currentYear"></span> Prime Tech System Serviço de Informática LTDA.
+                        Todos os direitos reservados.
+                    </p>
+                </div>
+                <div class="col-md-6 text-md-end">
+                    <p class="text-white-50 small mb-0">
+                        CNPJ: 30.831.582/0001-19
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Projeto de Extensão -->
+    <section class="pei-section">
+        <div class="container">
+            <p class="mb-0">
+                <i class="bi bi-mortarboard-fill me-2"></i>
+                PROJETO DE EXTENSÃO E INOVAÇÃO - MULTIVIX
+            </p>
+        </div>
+    </section>
+
+    <!-- WhatsApp Float Button -->
+    <a href="https://wa.me/5591988899669" target="_blank" class="whatsapp-float" aria-label="Falar no WhatsApp">
+        <i class="bi bi-whatsapp"></i>
+        <span class="pulse-ring"></span>
+    </a>
+
+    <!-- Back to top -->
+    <button id="backToTop" class="back-to-top" aria-label="Voltar ao topo">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+</html>
